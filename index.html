@@ -1,5 +1,7 @@
 <html>
   <head>
+    <title>Demo Tab</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
       $(".normal-tab li").click(function(){var b=$(this).index()+1;$(".normal-tab").each(function(){$(".normal-tab").find("li.active").removeClass("active")}),$(this).addClass("active"),$(".content-tab").each(function(){$(this).find(".child-tab.active").removeClass("active")});$(".content-tab .child-tab:nth-child("+b+")").addClass("active")});
     </script>
