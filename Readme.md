@@ -13,10 +13,10 @@ Insert this html code to your html file
     <div class="child-tab active">
       <p>This is AAA Tab</p> 
     </div>
-    <div class="child-tab active">
+    <div class="child-tab">
       <p>This is BBB Tab</p> 
     </div>
-    <div class="child-tab active">
+    <div class="child-tab">
       <p>This is CCC Tab</p> 
     </div>
   </div>
